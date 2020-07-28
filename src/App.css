@@ -1,0 +1,22 @@
+
+.Container{
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction:row;
+}
+.Left-Side{
+  background-color: #7DB1FF;
+  width: 15vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+
+}
+.Right-Side{
+  background-color: #BBD5FB;
+  width: 85vw;
+  height: 100vh;
+}
