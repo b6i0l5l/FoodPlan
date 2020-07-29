@@ -2,21 +2,46 @@
 .Container{
   background-color: white;
   height: 100vh;
-  display: flex;
-  flex-direction:row;
+  width: 100vw;
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 70px 1fr 50px;
+  position: absolute;
 }
-.Left-Side{
+.Header{
+  background-color: pink;
+  grid-column-start:1;
+  grid-column-end:3;
+}
+.LeftSide{
   background-color: #7DB1FF;
-  width: 15vw;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-
+  grid-row-start: 2;
+  grid-row-end: 3;
 
 }
-.Right-Side{
-  background-color: #BBD5FB;
-  width: 85vw;
-  height: 100vh;
+.Info{
+  width:150px;
+  background-color:white;
+  font-size: 15px;
+  margin-left: 10%;
+  line-height:14px;
+
+}
+.Footer{
+  background-color: yellow;
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.Body{
+  background-color: gray;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start:2;
+  grid-column-end:3;
+}
+.Button{
+  margin-left: 10%;
 }
