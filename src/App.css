@@ -1,47 +1,88 @@
-
 .Container{
   background-color: white;
   height: 100vh;
   width: 100vw;
   font-size: 25px;
   display: grid;
-  grid-template-columns: 200px 1fr;
-  grid-template-rows: 70px 1fr 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 50% 1fr 30px;
   position: absolute;
 }
 .Header{
-  background-color: pink;
+  color: black;
+  background-color: Red;
   grid-column-start:1;
+  grid-column-end:5;
+  grid-row-start:1;
+  grid-row-end:2;
+  justify-self:right;
+  margin-right: 20px;
+}
+.ant-btn-link > span{
+  color:black;
+}
+/* .Test{
+  justify-content: flex-end;
+} */
+.Content1{
+  background-color: white;
+  grid-column-start:1;
+  grid-column-end:5;
+  grid-row-start:1;
+  grid-row-end:3;
+  background-image: url("/content2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center; */
+}
+.Content21{
+  /* background-color:lightblue; */
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:3;
+  grid-row-end:4;
+}
+
+.Content22{
+  /* background-color:red; */
+  grid-column-start:2;
   grid-column-end:3;
+  grid-row-start:3;
+  grid-row-end:4;
 }
-.LeftSide{
-  background-color: #7DB1FF;
-  grid-row-start: 2;
-  grid-row-end: 3;
+.Content23{
+  /* background-color:pink; */
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:3;
+  grid-row-end:4;
+}
+.Content24{
+  /* background-color:green; */
+  grid-column-start:4;
+  grid-column-end:5;
+  grid-row-start:3;
+  grid-row-end:4;
+}
+.ant-card-cover{
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: 20px;
 
 }
-.Info{
-  width:150px;
-  background-color:white;
-  font-size: 15px;
-  margin-left: 10%;
-  line-height:14px;
 
+.Image{
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 50px;
 }
 .Footer{
   background-color: yellow;
   grid-column-start:1;
-  grid-column-end:3;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-.Body{
-  background-color: gray;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start:2;
-  grid-column-end:3;
-}
-.Button{
-  margin-left: 10%;
+  grid-column-end:5;
+  grid-row-start:4;
+  grid-row-end:5;
 }
