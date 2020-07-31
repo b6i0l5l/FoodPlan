@@ -21,9 +21,6 @@
 .ant-btn-link > span{
   color:black;
 }
-/* .Test{
-  justify-content: flex-end;
-} */
 .Content1{
   background-color: white;
   grid-column-start:1;
@@ -93,19 +90,32 @@
 }
 .ant-card{
   color:black !important;
+  line-height: 1 !important;
   margin-top: 10px;
 }
+
 .Image1-Title > p{
   color:#0000FF;
   font-weight: bold;
   font-size: 20px;
   line-height: 1px;
 }
+.Image1-Title > a{
+  color:black;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
 .Image2-Title > p{
   color:#DC143C;
   font-weight: bold;
   font-size: 20px;
   line-height: 1px;
+}
+.Image2-Title > a{
+  color:black;
+  text-decoration: underline;
+  font-weight: normal;
 }
 .Image3-Title > p{
   color:#FF8C00;
@@ -113,11 +123,21 @@
   font-size: 20px;
   line-height: 1px;
 }
+.Image3-Title > a{
+  color:black;
+  text-decoration: underline;
+  font-weight: normal;
+}
 .Image4-Title > p{
   color:DarkMagenta;
   font-weight: bold;
   font-size: 20px;
   line-height: 1px;
+}
+.Image4-Title > a{
+  color:black;
+  text-decoration: underline;
+  font-weight: normal;
 }
 .Footer{
   background-color: white;
@@ -127,5 +147,4 @@
   grid-row-end:5;
   font-size: 12px;
   text-align: center;
-
 }

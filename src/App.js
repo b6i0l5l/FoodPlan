@@ -37,17 +37,18 @@ class FoodPlan extends Component{
         </div>
         <div class = "Content21">
           <div class = "Image">
-            <div class = "ant-card">
-              <Card
-                class = "ant-card-cover"
-                cover={<img alt="example" src="homemade.png" />}
-              >
-                <div class = "Image1-Title">
-                  <p>HomeMade</p>
-                  <p1>Try to make your own food? Click here!</p1>
-                </div>
-              </Card>
-            </div>
+            <Card
+              class = "ant-card-cover"
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <div class = "Image1-Title">
+                <p>HomeMade</p>
+                <p1>Try to make your own food?</p1>
+                <a>
+                  Click here!
+                </a>
+              </div>
+            </Card>
           </div>
         </div>
         <div class = "Content22">
@@ -59,7 +60,10 @@ class FoodPlan extends Component{
               >
                 <div class = "Image2-Title">
                   <p>Restaurant</p>
-                  <p1>Are you a foodie? Click here!</p1>
+                  <p1>Are you a foodie?</p1>
+                  <a>
+                    Click here!
+                  </a>
                 </div>
               </Card>
             </div>
@@ -74,7 +78,10 @@ class FoodPlan extends Component{
               >
                 <div class = "Image3-Title">
                   <p>Vegetarians</p>
-                  <p1>Hi, I'm Vegan. Click here!</p1>
+                  <p1>Hi, I'm Vegan.</p1>
+                  <a>
+                    Click here!
+                  </a>
                 </div>
               </Card>
             </div>
@@ -89,7 +96,10 @@ class FoodPlan extends Component{
               >
                 <div class = "Image4-Title">
                   <p>QA</p>
-                  <p1>Questions for your meal? Click here!</p1>
+                  <p1>Questions for your meal?</p1>
+                  <a>
+                    Click here!
+                  </a>
                 </div>
               </Card>
             </div>
