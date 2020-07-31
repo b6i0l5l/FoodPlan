@@ -28,18 +28,20 @@ class FoodPlan extends Component{
             Desserts
           </Button>
         </div>
-        <div class = "Test">
-
-        </div>
         <div class = "Content1">
+        </div>
+        <div class = "Slogan">
+          <p>FitnessPlan</p>
+          <p>is</p>
+          <p>30% workout, 70% eat</p>
         </div>
         <div class = "Content21">
           <div class = "Image">
             <Card
               class = "ant-card-cover"
-              cover={<img alt="example" src="content2.png" />}
+              cover={<img alt="example" src="homemade.png" />}
             >
-              <Meta title="HomeMade" description="www.instagram.com" />
+              <Meta title="HomeMade" description="Try to make your own food? Click here!" />
             </Card>
           </div>
         </div>
@@ -47,9 +49,9 @@ class FoodPlan extends Component{
           <div class = "Image">
             <Card
               class = "ant-card-cover"
-              cover={<img alt="example" src="content2.png" />}
+              cover={<img alt="example" src="Restaurant.jpg" />}
             >
-              <Meta title="Restaurant" description="www.instagram.com" />
+              <Meta title="Restaurant" description="Are you a foodie? Click here!" />
             </Card>
           </div>
         </div>
@@ -57,9 +59,9 @@ class FoodPlan extends Component{
           <div class = "Image">
             <Card
               class = "ant-card-cover"
-              cover={<img alt="example" src="content2.png" />}
+              cover={<img alt="example" src="vegetarian.jpeg" />}
             >
-              <Meta title="Vegetarians" description="www.instagram.com" />
+              <Meta title="Vegetarians" description="Hi, I'm Vegan. Click here!" />
             </Card>
           </div>
         </div>
@@ -67,14 +69,14 @@ class FoodPlan extends Component{
           <div class = "Image">
             <Card
               class = "ant-card-cover"
-              cover={<img alt="example" src="content2.png" />}
+              cover={<img alt="example" src="QA.jpg" />}
             >
-              <Meta title="Europe Street beat" description="www.instagram.com" />
+              <Meta title="QA" description="Questions for your meal? Click here!" />
             </Card>
           </div>
         </div>
         <div class = "Footer">
-          Footer
+          Made by Stanley
         </div>
       </div>
 
