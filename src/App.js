@@ -12,98 +12,41 @@ class FoodPlan extends Component{
     return (
       <div class = "Container">
         <div class = "Header">
-          <Button type="link" class = "ant-btn-link">
-            Home
-          </Button>
-          <Button type="link" class = "ant-btn-link">
-            Homade
-          </Button>
-          <Button type="link" class = "ant-btn-link">
-            Restaurant
-          </Button>
-          <Button type="link" class = "ant-btn-link">
-            Vegetarians
-          </Button>
-          <Button type="link" class = "ant-btn-link">
-            QA
-          </Button>
+          header
         </div>
         <div class = "Content1">
+          Content1
         </div>
-        <div class = "Slogan">
-          <p>FitnessPlan</p>
-          <p>is</p>
-          <p>30% workout, 70% eat</p>
+        <div class = "Content2">
+          Content2
         </div>
-        <div class = "Content21">
-          <div class = "Image">
-            <Card
-              class = "ant-card-cover"
-              cover={<img alt="example" src="homemade.png" />}
-            >
-              <div class = "Image1-Title">
-                <p>HomeMade</p>
-                <p1>Try to make your own food?</p1>
-                <a>
-                  Click here!
-                </a>
-              </div>
-            </Card>
-          </div>
-        </div>
-        <div class = "Content22">
-          <div class = "Image">
-            <div class = "ant-card">
-              <Card
-                class = "ant-card-cover"
-                cover={<img alt="example" src="Restaurant.jpg" />}
-              >
-                <div class = "Image2-Title">
-                  <p>Restaurant</p>
-                  <p1>Are you a foodie?</p1>
-                  <a>
-                    Click here!
-                  </a>
-                </div>
-              </Card>
+        <div class="Image1">
+          <Card
+            class = "ant-card-cover"
+            cover={<img alt="example" src="homemade.png" />}
+          >
+            <div class = "Image1-Title">
+              <p>HomeMade</p>
+              <p1>Try to make your own food?</p1>
+              <a>
+                Click here!
+              </a>
             </div>
-          </div>
+          </Card>
         </div>
-        <div class = "Content23">
-          <div class = "Image">
-            <div class = "ant-card">
-              <Card
-                class = "ant-card-cover"
-                cover={<img alt="example" src="vegetarian.jpeg" />}
-              >
-                <div class = "Image3-Title">
-                  <p>Vegetarians</p>
-                  <p1>Hi, I'm Vegan.</p1>
-                  <a>
-                    Click here!
-                  </a>
-                </div>
-              </Card>
-            </div>
-          </div>
+        <div class="Image2">
+          good
         </div>
-        <div class = "Content24">
-          <div class = "Image">
-            <div class = "ant-card">
-              <Card
-                class = "ant-card-cover"
-                cover={<img alt="example" src="QA.jpg" />}
-              >
-                <div class = "Image4-Title">
-                  <p>QA</p>
-                  <p1>Questions for your meal?</p1>
-                  <a>
-                    Click here!
-                  </a>
-                </div>
-              </Card>
-            </div>
-          </div>
+        <div class="Image3">
+          good
+        </div>
+
+
+        <div class = "Sider">
+          Sider
+        </div>
+        <div class = "Bottom">
+          Bottom
         </div>
         <div class = "Footer">
           Footer
