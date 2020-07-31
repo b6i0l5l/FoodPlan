@@ -80,9 +80,7 @@
 }
 .ant-card-cover{
   max-width: 100%;
-
   margin-left: 20px;
-
 }
 
 .Image{
@@ -90,9 +88,39 @@
   max-height: 100%;
   margin-left: 10px;
   margin-right: 10px;
+  font-weight: bold;
+  line-height: 1px;
+}
+.ant-card{
+  color:black !important;
+  margin-top: 10px;
+}
+.Image1-Title > p{
+  color:#0000FF;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1px;
+}
+.Image2-Title > p{
+  color:#DC143C;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1px;
+}
+.Image3-Title > p{
+  color:#FF8C00;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1px;
+}
+.Image4-Title > p{
+  color:DarkMagenta;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1px;
 }
 .Footer{
-  background-color: yellow;
+  background-color: white;
   grid-column-start:1;
   grid-column-end:5;
   grid-row-start:4;

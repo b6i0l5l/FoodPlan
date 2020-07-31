@@ -25,7 +25,7 @@ class FoodPlan extends Component{
             Vegetarians
           </Button>
           <Button type="link" class = "ant-btn-link">
-            Desserts
+            QA
           </Button>
         </div>
         <div class = "Content1">
@@ -37,46 +37,66 @@ class FoodPlan extends Component{
         </div>
         <div class = "Content21">
           <div class = "Image">
-            <Card
-              class = "ant-card-cover"
-              cover={<img alt="example" src="homemade.png" />}
-            >
-              <Meta title="HomeMade" description="Try to make your own food? Click here!" />
-            </Card>
+            <div class = "ant-card">
+              <Card
+                class = "ant-card-cover"
+                cover={<img alt="example" src="homemade.png" />}
+              >
+                <div class = "Image1-Title">
+                  <p>HomeMade</p>
+                  <p1>Try to make your own food? Click here!</p1>
+                </div>
+              </Card>
+            </div>
           </div>
         </div>
         <div class = "Content22">
           <div class = "Image">
-            <Card
-              class = "ant-card-cover"
-              cover={<img alt="example" src="Restaurant.jpg" />}
-            >
-              <Meta title="Restaurant" description="Are you a foodie? Click here!" />
-            </Card>
+            <div class = "ant-card">
+              <Card
+                class = "ant-card-cover"
+                cover={<img alt="example" src="Restaurant.jpg" />}
+              >
+                <div class = "Image2-Title">
+                  <p>Restaurant</p>
+                  <p1>Are you a foodie? Click here!</p1>
+                </div>
+              </Card>
+            </div>
           </div>
         </div>
         <div class = "Content23">
           <div class = "Image">
-            <Card
-              class = "ant-card-cover"
-              cover={<img alt="example" src="vegetarian.jpeg" />}
-            >
-              <Meta title="Vegetarians" description="Hi, I'm Vegan. Click here!" />
-            </Card>
+            <div class = "ant-card">
+              <Card
+                class = "ant-card-cover"
+                cover={<img alt="example" src="vegetarian.jpeg" />}
+              >
+                <div class = "Image3-Title">
+                  <p>Vegetarians</p>
+                  <p1>Hi, I'm Vegan. Click here!</p1>
+                </div>
+              </Card>
+            </div>
           </div>
         </div>
         <div class = "Content24">
           <div class = "Image">
-            <Card
-              class = "ant-card-cover"
-              cover={<img alt="example" src="QA.jpg" />}
-            >
-              <Meta title="QA" description="Questions for your meal? Click here!" />
-            </Card>
+            <div class = "ant-card">
+              <Card
+                class = "ant-card-cover"
+                cover={<img alt="example" src="QA.jpg" />}
+              >
+                <div class = "Image4-Title">
+                  <p>QA</p>
+                  <p1>Questions for your meal? Click here!</p1>
+                </div>
+              </Card>
+            </div>
           </div>
         </div>
         <div class = "Footer">
-          Made by Stanley
+          Footer
         </div>
       </div>
 
