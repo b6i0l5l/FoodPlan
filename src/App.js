@@ -18,37 +18,119 @@ class FoodPlan extends Component{
           Content1
         </div>
         <div class = "Content2">
-          Content2
-        </div>
-        <div class="Image1">
+          <div class = "Image1">
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <Meta title="Europe Street beat" description="www.instagram.com" />
+            </Card>
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <Meta title="Europe Street beat" description="www.instagram.com" />
+            </Card>
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <Meta title="Europe Street beat" description="www.instagram.com" />
+            </Card>
+          </div>
+          <div class = "Image2">
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <Meta title="Europe Street beat" description="www.instagram.com" />
+            </Card>
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <Meta title="Europe Street beat" description="www.instagram.com" />
+            </Card>
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <Meta title="Europe Street beat" description="www.instagram.com" />
+            </Card>
+          </div>
+          <div class = "Image3">
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <Meta title="Europe Street beat" description="www.instagram.com" />
+            </Card>
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <Meta title="Europe Street beat" description="www.instagram.com" />
+            </Card><Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <Meta title="Europe Street beat" description="www.instagram.com" />
+            </Card>
+          </div>
           <Card
-            class = "ant-card-cover"
+            hoverable
+            style={{ width: 240 }}
             cover={<img alt="example" src="homemade.png" />}
           >
-            <div class = "Image1-Title">
-              <p>HomeMade</p>
-              <p1>Try to make your own food?</p1>
-              <a>
-                Click here!
-              </a>
-            </div>
+            <Meta title="Europe Street beat" description="www.instagram.com" />
           </Card>
+          <Card
+            hoverable
+            style={{ width: 240 }}
+            cover={<img alt="example" src="homemade.png" />}
+          >
+            <Meta title="Europe Street beat" description="www.instagram.com" />
+          </Card>
+          <div class = "Image4">
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <Meta title="Europe Street beat" description="www.instagram.com" />
+            </Card>
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <Meta title="Europe Street beat" description="www.instagram.com" />
+            </Card>
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={<img alt="example" src="homemade.png" />}
+            >
+              <Meta title="Europe Street beat" description="www.instagram.com" />
+            </Card>
+          </div>
         </div>
-        <div class="Image2">
-          good
-        </div>
-        <div class="Image3">
-          good
-        </div>
-
-
-        <div class = "Sider">
+        <div class="Sider">
           Sider
         </div>
-        <div class = "Bottom">
+        <div class="Bottom">
           Bottom
         </div>
-        <div class = "Footer">
+        <div class="Footer">
           Footer
         </div>
       </div>

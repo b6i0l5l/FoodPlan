@@ -4,38 +4,32 @@
   width: 100vw;
   font-size: 25px;
   display: grid;
-  grid-template-columns: 5px 150px 1fr 1fr 1fr 5px;
-  grid-template-rows: 30px 200px 40px 50% 30px 20px;
+  grid-template-columns: 5px 150px 1fr 5px;
+  grid-template-rows: 30px 40px 1fr 30px 30px;
   position: absolute;
   grid-gap: 5px;
 }
 .Header{
   background-color: Red;
   grid-column-start:1;
-  grid-column-end:7;
+  grid-column-end:6;
   grid-row-start:1;
   grid-row-end:2;
 }
 .Content1{
   background-color: blue;
   grid-column-start:3;
-  grid-column-end:6;
+  grid-column-end:5;
   grid-row-start:2;
   grid-row-end:3;
 }
 .Content2{
-  background-color: pink;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
   grid-column-start:3;
-  grid-column-end:6;
+  grid-column-end:5;
   grid-row-start:3;
   grid-row-end:4;
-}
-.Content3{
-  background-color: lightblue;
-  grid-column-start:3;
-  grid-column-end:6;
-  grid-row-start:4;
-  grid-row-end:5;
 }
 .Image{
   max-width: 50%;
@@ -46,51 +40,59 @@
   line-height: 1px;
 }
 .ant-card-bordered{
-  width:50% !important;
-  height:50% !important;
+  width:200px !important;
+  height:250px !important;
+  margin-bottom: 20px !important;
+  margin-left: 35px !important;
+}
+.ant-card-body{
+  padding:0px !important;
 }
 .Image1{
-  grid-column-start:3;
-  grid-column-end:4;
-  grid-row-start:4;
-  grid-row-end:5;
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:1;
+  grid-row-end:2;
 }
 .Image2{
-  grid-column-start:4;
-  grid-column-end:5;
-  grid-row-start:4;
-  grid-row-end:5;
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:1;
+  grid-row-end:2;
 }
 .Image3{
-  grid-column-start:5;
-  grid-column-end:6;
-  grid-row-start:4;
-  grid-row-end:5;
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:1;
+  grid-row-end:2;
 }
-.ant-card-cover{
-  max-width: 100%;
-  margin-left: 20px;
+.Image4{
+  grid-column-start:4;
+  grid-column-end:5;
+  grid-row-start:1;
+  grid-row-end:2;
 }
+
 .Sider{
   background-color:gray;
   grid-column-start:2;
   grid-column-end:3;
   grid-row-start:2;
-  grid-row-end:6;
+  grid-row-end:5;
 }
 .Bottom{
   background-color:green;
   grid-column-start:3;
-  grid-column-end:6;
-  grid-row-start:5;
-  grid-row-end:6;
+  grid-column-end:5;
+  grid-row-start:4;
+  grid-row-end:5;
 }
 .Footer{
   background-color: yellow;
   grid-column-start:1;
-  grid-column-end:7;
-  grid-row-start:6;
-  grid-row-end:7;
+  grid-column-end:6;
+  grid-row-start:5;
+  grid-row-end:6;
   font-size: 12px;
 
 }
